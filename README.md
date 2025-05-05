@@ -63,7 +63,7 @@ Human-in-the-Loop (HITL) is a collaborative approach where AI agents work alongs
       <p align="right">
         Can Mingir&nbsp;
         <br/>
-        <a href="https://github.com/canmingir">@canmingir</a>
+        <a href="https://github.com/Sanskar7805">@Sanskar7805</a>
       </p>
     </td>
   </tr>
