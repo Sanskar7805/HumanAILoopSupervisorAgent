@@ -11,7 +11,7 @@
 
 ## What is Supervised AI Agent?
 
-GreyCollar is a Supervised AI agent platform for Human-AI collaborations in enterprise. Despite recent advancements, AI has yet to reach its full potential in enterprise settings due to reliability concerns. GreyCollar provides a supervised learning platform for agentic AI, enabling AI to be supervised and continuously learn from human supervisors just like a new employee—even in rare or complex cases encountered in daily work.
+HumanAILoopSupervisorAgent is a Supervised AI agent platform for Human-AI collaborations in enterprise. Despite recent advancements, AI has yet to reach its full potential in enterprise settings due to reliability concerns. GreyCollar provides a supervised learning platform for agentic AI, enabling AI to be supervised and continuously learn from human supervisors just like a new employee—even in rare or complex cases encountered in daily work.
 
 Designed for human-AI collaboration (Human-in-the-Loop), GreyCollar is highly effective in scenarios that require data-driven decision-making, automation, and real-time adaptability. It incorporates human-in-the-loop mechanisms, enabling iterative learning through continuous feedback and model adjustments. This enhances its ability to handle complex tasks at work environment.
 
