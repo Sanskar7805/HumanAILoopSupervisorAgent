@@ -1,0 +1,33 @@
+[
+  {
+    "action": "PLATFORM:llm",
+    "lib": "llm",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "string",
+          "description": "The message to be sent to the LLM."
+        }
+      },
+      "required": ["message"]
+    }
+  },
+  {
+    "action": "PLATFORM:scrape_website",
+    "lib": "scrapper",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "description": "The URL of the website to scrape."
+        }
+      },
+      "required": ["url"]
+    }
+  },
+  {
+    "action": "PLATFORM:complete"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "name": "greycollar",
+  "version": "0.0.1",
+  "description": "GreyCollar is a supervised AI agent that can be used to automate tasks, manage workflows, and provide insights. It is designed to be event-driven and can be integrated with various platforms and services.",
+  "main": "server.js",
+  "author": "GreyCollar Team",
+  "private": "true",
+  "scripts": {
+    "dev:api": "cd ./api && npm run dev",
+    "dev:dashboard": "cd ./dashboard && npm run dev",
+    "dev:main": "npm start",
+    "dev": "concurrently -n \"main,api,dashboard\" \"npm start\" \"npm run dev:api\" \"npm run dev:dashboard\"",
+    "install:api": "cd ./api && npm install",
+    "install:dashboard": "cd ./dashboard && npm install",
+    "install": "npm run install:api && npm run install:dashboard",
+    "test:api": "cd ./api && npm run test",
+    "test:dashboard": "cd ./dashboard && npm run test",
+    "test": "npm run test:api && npm run test:dashboard",
+    "build": "cd ./dashboard && npm run build",
+    "serve": "concurrently -n \"main,api,dashboard\" \"npm start\" \"npm run dev:api\" \"npx @nucleoidai/http-server start --port 5173\"",
+    "lint:dashboard": "cd ./dashboard && npm run lint",
+    "lint": "npm run lint:dashboard",
+    "typecheck:dashboard": "cd ./dashboard && npm run typecheck",
+    "typecheck": "npm run typecheck:dashboard"
+  },
+  "dependencies": {
+    "@nucleoidai/platform": "^1.0.52",
+    "@nucleoidai/platform-express": "^1.5.47",
+    "concurrently": "^9.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^3.0.1"
+  }
+}
